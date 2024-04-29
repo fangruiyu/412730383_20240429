@@ -7,5 +7,9 @@ function setup() {
 
 function draw() {
   background(220);
-  image(capture,mouseX, mouseY)
+  push()
+   translate(width/2-160,height/2-120)
+   image(capture,0, 0)
+  pop()
+  
 }
